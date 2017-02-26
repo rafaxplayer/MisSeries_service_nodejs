@@ -1,0 +1,16 @@
+{
+  "name": "misseries_service",
+  "version": "0.0.1",
+  "description": "servicio de notificaciones para mis series app",
+  "dependencies": {
+    "firebase-admin": "^4.0.5",
+    "request": "^2.79.0"
+  },
+  "main": "service.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rafax",
+  "license": "ISC"
+}

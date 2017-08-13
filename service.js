@@ -1,8 +1,7 @@
-//var http = require("http");
 var firebase = require("firebase-admin");
 var serviceAccount = require("./Mis-Series-9076f9f37a77.json");
 var request = require("request");
-var URL_BASE = "http://seriesdanko.com/serie.php?serie=";
+var URL_BASE = "http://seriesdanko.to/serie.php?serie=";
 var REGEX_BASE = "<a\\shref='(capitulo.*?serie=(\\d+)&temp=(\\d+)&.*?)'>(.*?)</a>.*?<br>";
 var timer = null;
 
@@ -167,3 +166,5 @@ function stopTimer(timer) {
 }
 
 startTimer();
+
+
